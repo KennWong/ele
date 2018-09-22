@@ -43,6 +43,7 @@
     },
     created () {
       this.classMap = ['decrease', 'dicount', 'special', 'invoice', 'guarantee']
+      this.s = '1'
     }
   }
 </script>
