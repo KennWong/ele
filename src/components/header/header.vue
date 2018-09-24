@@ -43,8 +43,8 @@
           </div>
           <ul v-if="seller.supports" class="supports">
             <li class="support-item" v-for="item in seller.supports">
-              <span class="icon" :class="classMap[seller.supports[$index].type]"></span>
-              <span class="text">{{seller.supports[$index].description}}</span>
+              <span class="icon" :class="classMap[item.type]"></span>
+              <span class="text">{{item.description}}</span>
             </li>
           </ul>
           <div class="info">
@@ -154,7 +154,6 @@
               bg-image('invoice_1')
             &.special
               bg-image('special_1')
-
           .text
             vertical-align top
             line-height 12px
