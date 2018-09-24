@@ -86,15 +86,10 @@
       }
     },
     created () {
-<<<<<<< HEAD
-      this.classMap = ['decrease', 'dicount', 'special', 'invoice', 'guarantee']
-      this.s = '1'
-=======
       this.classMap = ['decrease', 'discount', 'special', 'invoice', 'guarantee']
     },
     components: {
       star
->>>>>>> dev01
     }
   }
 </script>
