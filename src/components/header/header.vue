@@ -213,7 +213,7 @@
       filter blur(10px)
     .detail
       position fixed
-      z-index 100
+      z-index 200
       top 0
       left 0
       width 100%
